@@ -1,0 +1,55 @@
+import React from 'react'
+import logo from '../.././Images/logo (1).svg'
+import savat from '../../../src/Images/savat1.png'
+import './Navbar.css'
+
+const Navbar = () => {
+    
+  return (
+    <div>
+    <div className="navbar  container">
+<div className="navbar-box">  
+    <ul className="navbar-list">
+    <li  className="navabr-item">
+      <a       > <img src= {logo}    alt="logo"    className='navbar-img'  />  </a>
+    </li>
+    <li className="navbar-item">
+        <a href="#" className="navbar-link"> <p className="navbar-title">  AkaPhone </p> </a>
+        <a href="#" className="navbar-link"> <p className="navbar-text">Качестенное по доступное цену
+
+</p></a>
+    </li>
+
+</ul>
+
+
+    <li className="navbar-subitem">
+        <p className="navbar-subtext">Скидки
+        </p>
+        <p className="navbar-subtext">Специальные предложения
+        </p>
+        <p className="navbar-subtext">Каталог товаров
+        </p>
+    </li>
+    
+    <ul className="navbar-list">
+   
+    <li className="navbar-item_a">
+        <a href="tel:+998339260003" className="navbar-link"> <p className="navbar-title">  +998339260003 </p> </a>
+        <a href="#" className="navbar-link"> <button className="navbar-btn"> Заказать звонок
+        </button></a>
+    </li>
+    <li  className="navabr-item_a">
+      <a     > <img src= {savat}    alt="savat"  className=' navbar-subimg' />  </a>
+    </li>
+</ul>
+   
+    
+    </div>
+    </div>
+
+    </div>
+  )
+}
+
+export default Navbar

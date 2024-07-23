@@ -1,0 +1,130 @@
+.section-picture{
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(88, 88, 232);
+    border: 1px solid rgb(255, 255, 255);
+transition: 0.9s;
+}
+.section-btn:hover{
+background-color: white;
+box-shadow: 1px 3px 28px white;
+color: black;
+}
+.section-box{
+    background-color: rgb(88, 88, 232);
+    width: 580px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 220px;
+}
+.section-subbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-name{
+    font-size: 29px;
+    color: white;
+    font-weight: 600;
+    
+}
+.section-title{
+    font-size: 19px;
+    color: white;
+    font-weight: 400;
+    padding:  0 10px;
+    padding:  0 10px;
+}
+.section-btn{
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    width: 200px;
+}
+.section-subbtn{
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    width: 250px;
+  padding: 10x;
+}
+.section-subbtn_a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(57, 86, 102);
+    border: 1px solid rgb(255, 255, 255);
+transition: 0.9s;
+margin: 10px;
+width: 250px;
+padding: 10px 0;
+}
+.section-subbtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    border: 1px solid rgb(255, 255, 255);
+transition: 0.9s;
+margin: 10px;
+}
+.section-subbtn:hover{
+background-color: white;
+box-shadow: 1px 3px 28px white;
+color: black;
+}
+.section-subbtn_a:hover{
+    background-color: white;
+    box-shadow: 1px 3px 28px white;
+    color: black;
+    }
+.section-inlane{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 270px;
+    max-width: 300px; */
+    padding: 0 10px;
+ 
+}
+.section-subitem{
+    background-color: red;
+    width: 270px;
+    max-width: 300px;
+}
+.section-subitem_a{
+    background-color: rgb(57, 86, 102);
+    width: 270px;
+    max-width: 300px;
+}
+.section-subname{
+    color: white;
+}
+.section-btn{
+    color: white;
+    font-size: 19px;
+    /* padding: 10px; */
+    width: 200px;
+   margin: 10px 0;
+}
+.section-subcard{
+    display: flex;
+    align-items: center;
+}
+.section-card{
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+

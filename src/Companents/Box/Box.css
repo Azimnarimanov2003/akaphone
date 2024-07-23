@@ -1,0 +1,71 @@
+.box-img{
+    width: 570px;
+    height: 490px;
+}
+.box-text{
+    font-size: 15px;
+    color: red;
+}
+.box-name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding: 20px 0;
+}
+.box-subname{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box-subtext{
+    font-size: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    width: 550px;
+    line-height: 20px;
+}
+.box-money{
+    font-size: 30px;
+    color: red;
+    padding: 15px 0;
+}
+.box-btn{
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 9px 23px;
+    background-color: transparent;
+    border: 2px solid rgb(235, 77, 77);
+    color: rgb(235, 77, 77);
+    margin-right: 20px;
+    transition: 0.7s;
+}
+.box-btn:hover{
+    color: white;
+    background-color: red;
+}
+.box-subbutton{
+    transition: 0.6s;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding: 9px 23px;
+    background-color: transparent;
+    border: 2px solid rgb(235, 77, 77);
+    color: rgb(235, 77, 77);
+    margin-right: 20px;
+}
+.box-subbutton:hover{
+    color: white;
+    background-color: red;
+}
+.box {
+    display: flex;
+    align-items:center ;
+}
