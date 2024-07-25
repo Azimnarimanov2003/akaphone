@@ -18,12 +18,13 @@ color: black;
 }
 .section-box{
     background-color: rgb(88, 88, 232);
-    width: 580px;
-    max-width: 50%;
+padding-top: 10px;
+margin-top: 10px;
+    max-width: 580px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    height: 220px;
+    /* justify-content: space-around; */
+    height: 220px; 
 }
 .section-subbox{
     display: flex;
@@ -63,9 +64,9 @@ color: black;
     background-color: rgb(57, 86, 102);
     border: 1px solid rgb(255, 255, 255);
 transition: 0.9s;
-margin: 10px;
-width: 250px;
-padding: 10px 0;
+margin: 0 10px;
+width: 250px; 
+padding: 10px; 
 }
 .section-subbtn{
     display: flex;
@@ -90,10 +91,7 @@ color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* width: 270px;
-    max-width: 300px; */
-    padding: 0 10px;
- 
+    padding: 1px 10px;
 }
 .section-subitem{
     background-color: red;
@@ -107,6 +105,7 @@ color: black;
 }
 .section-subname{
     color: white;
+    font-size: 19px;
 }
 .section-btn{
     color: white;
@@ -123,8 +122,87 @@ color: black;
     display: flex;
     justify-content: space-between;
     width: 580px;
-    gap: 10px;
+    gap: 20px;
     padding: 10px 0;
 }
 
+.button-btn{
+    color: white;
+    font-size: 18px;
+}
+.button-btn:hover{
+    color: black;
+    font-size: 18px;
+}
+.main-img{
+    width: 50px;
+    height: 43px;
+}
+.main-btn{
+    color: white;
+    font-size: 16px;
+    background-color:rgb(214, 211, 49) ;
+padding: 5px;
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+border: 2px solid white;
+transition: 0.8s;
+}
+.main-btn:hover{
+    color: black;
+    box-shadow: 1px 2px 20px white;
+    background-color: white;
+}
+.main-box{
+    background: linear-gradient(rgb(90, 198, 81) 0%, rgb(236, 219, 65) )
 
+}
+.main-box{
+   width: 270px; 
+   padding: 14px;
+   height:465px;
+}
+.main-name{
+    color: white;
+    font-size: 28px;
+    padding: 10px 0;
+}
+.main-picture{
+    padding: 15px 0;
+}
+.main-subname{
+font-size: 28px;
+color: white;
+width: 30px;
+padding: 10px 0;
+}
+.main-subbox_a{
+    background: linear-gradient(90deg, rgb(57, 64, 129) 0%, rgb(137, 103, 210) 100%);
+    padding: 10px;
+    width: 270px;
+height: 220px;
+}
+.main-subtitle{
+    color: white;
+}
+.main-list{
+display: flex;
+align-items: center;
+gap: 20px;
+position: relative;
+}
+.main-sublist{
+    display: flex;
+}
+.main-subcard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-container{
+    display: flex;
+align-items: center;
+gap: 20px;
+}

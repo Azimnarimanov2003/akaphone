@@ -6,7 +6,7 @@ import telegram from '../../Images/telegram.png'
 import facebook from '../../Images/facebook.png'
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id='navbar_c'>
       <div className="footer-content">
         <div className="logo-section">
           <a href="/">
@@ -67,11 +67,13 @@ export default function Footer() {
           <p>Телефон: +998 33 926 00 03</p>
           <div className="footer-box">
           <a href="#"><img src={instagram} alt="instagram" className="footer-img" /> </a>
-        <a href="#">  <img src={telegram} alt="instagram" className="footer-img" /></a>
-         <a href="#"> <img src={facebook} alt="instagram" className="footer-img" /> </a>
+          <a href="#">  <img src={telegram} alt="instagram" className="footer-img" /></a>
+          <a href="#"> <img src={facebook} alt="instagram" className="footer-img" /> </a>
           </div>
         </div>
       </div>
     </div>
   )
 }
+
+

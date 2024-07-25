@@ -6,9 +6,9 @@ import quloqchin from '../../Images/quloqchin.png'
 import soat from '../../Images/soat.png'
 const Section = () => {
     return (
-        <div>
-            <div className="section  container">
-
+        <div id='navbar_b'>
+            <div className="section container">
+                  <div className="section-container">
                 <ul className="section-list">
                     <li className="section-item">
                         <div className="section-box">
@@ -59,14 +59,69 @@ const Section = () => {
                                 2 ₽
                             </h4>
                             <button className="section-subbtn_a">
-                                <p> Add To Cart  </p>
+                                <p className='button-btn'  > Add To Cart  </p>
                                 <img className=' section-picture' src={savat} alt="rasm" />
                             </button>
 
                         </li>
                     </div>
                 </ul>
+                <ul className="main-list">
+                    <li className="main-item">
+                        <div className="main-box">
+                            <h1 className="main-name">
+                                Кресло INDI CA-1613A-1
+                                5 ₽
+                            </h1>
+                            <img className='main-picture' src={require('../../Images/stul.png')} alt="Logo" />
 
+                            <div className="main-subbox">
+                                <button className="main-btn"> Add To Cart 
+                                <img className='main-img' src={require('../../Images/savat1.png')} alt="" />
+                                </button>
+                                
+                            </div>
+
+                        </div>
+                    </li>
+<div className="main-subcard">
+                    <li className="main-sublist">
+                      <div className="main-subbox_a">
+                        <h1 className="main-subname">               
+Galaxy Tab S6
+                        </h1>
+                          <h2 className="main-subtitle">
+                          25 ₽
+                          </h2>
+                          <div className="main-subbox_b">
+                                <button className="main-subbtn"> Add To Cart 
+                                <img className='main-img' src={require('../../Images/savat1.png')} alt="" />
+                                </button>
+                                
+                            </div>   
+                           
+                      </div>
+                    </li>
+                    <li className="main-sublist">
+                    <div className="main-subbox_a">
+                        <h1 className="main-subname">               
+Galaxy Tab S6
+                        </h1>
+                          <h2 className="main-subtitle">
+                          25 ₽
+                          </h2>
+                          <div className="main-subbox_b">
+                                <button className="main-subbtn"> Add To Cart 
+                                <img className='main-img' src={require('../../Images/savat1.png')} alt="" />
+                                </button>
+                                
+                            </div>   
+                           
+                      </div>
+                    </li>
+                    </div>
+                </ul>
+                </div>
             </div>
         </div>
     )

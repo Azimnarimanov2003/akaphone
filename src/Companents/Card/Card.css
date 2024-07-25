@@ -52,7 +52,8 @@
 }
 .card-button:hover{
 /* background-color: #fff; */
-color:red ;
+color:red;
+background-color: white;
 }
 .card:hover{
  /* border:  2px solid rgb(156, 98, 98); */

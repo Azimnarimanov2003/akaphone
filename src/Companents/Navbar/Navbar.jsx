@@ -3,6 +3,9 @@ import logo from '../.././Images/logo (1).svg'
 import savat from '../../../src/Images/savat1.png'
 import './Navbar.css'
 
+import { NavLink } from 'react-router-dom';
+
+
 const Navbar = () => {
     
   return (
@@ -24,11 +27,11 @@ const Navbar = () => {
 
 
     <li className="navbar-subitem">
-        <p className="navbar-subtext">Скидки
+        <p className="navbar-subtext"  > <a href="#navbar_a">Скидки</a>
         </p>
-        <p className="navbar-subtext">Специальные предложения
+        <p className="navbar-subtext"> <a href="#navbar_b">Специальные предложения</a>
         </p>
-        <p className="navbar-subtext">Каталог товаров
+        <p className="navbar-subtext"> <a href="#navbar_c">Каталог товаров</a>
         </p>
     </li>
     
@@ -40,7 +43,8 @@ const Navbar = () => {
         </button></a>
     </li>
     <li  className="navabr-item_a">
-      <a     > <img src= {savat}    alt="savat"  className=' navbar-subimg' />  </a>
+     
+       <NavLink to='/korzinka'> <img src= {savat}    alt="savat"  className=' navbar-subimg' />  </NavLink>
     </li>
 </ul>
    

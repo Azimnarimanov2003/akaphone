@@ -1,7 +1,7 @@
-// src/Components/Body/Body.jsx
+
 import React from 'react';
 import './Body.css';
-import Card from '../Card/Card'; // To'g'ri yo'lni tekshiring
+import Card from '../Card/Card'; 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -12,7 +12,7 @@ import products from '../products';
 const Body = () => {
 
   return (
-    <div className="body">  
+    <div className="body" id='navbar_a'>  
       <div className="container">
         <Swiper
           slidesPerView={4}
@@ -27,6 +27,7 @@ const Body = () => {
             <SwiperSlide key={product.id} className='body-swiper'>
             <Link to={`/detail/${product.id}`}>
             <Card data={product} />
+            
             </Link>
             </SwiperSlide>
           ))}
