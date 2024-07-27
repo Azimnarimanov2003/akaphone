@@ -42,13 +42,19 @@
 
 }
 .card-button{
+
     background-color: red;
     border: 2px solid #e22b3d;
     color: #fff;
     cursor: pointer;
     padding: 8px 15px;
     transition: 1s;
-    width: 100%;
+    width: 90%;
+    text-align: center;
+    margin-top: 330px;
+    position: absolute;
+
+   
 }
 .card-button:hover{
 /* background-color: #fff; */
